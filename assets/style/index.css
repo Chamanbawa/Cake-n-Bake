@@ -173,7 +173,7 @@ nav ul li+li {
    
     margin-top:30px;
 }
-.bakery {
+.row {
     flex-flow:row wrap;
      display:flex;
      gap:20px;
@@ -190,6 +190,11 @@ img{
     box-sizing: border-box;
 }
 
+.two{
+    background-color:#191919 ;
+    padding:20px;
+    box-sizing: border-box;
+}
 .bakery{
     min-height: calc(100vh - 60px - 80px );
 }
