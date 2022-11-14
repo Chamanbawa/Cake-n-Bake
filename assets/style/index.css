@@ -18,3 +18,79 @@ body {
     width: min(100% - 30px, 1280px);
     margin-inline: auto;
 }
+
+
+
+/* --------------- */
+/* footer          */
+/* --------------- */
+
+.flexbox {
+    display: flex;
+}
+
+footer {
+    height: 65px;
+    background-color: #fff;
+}
+
+div .icons {
+    width: 50%;
+    text-align: left;
+}
+
+div .icons ul {
+    list-style: none;
+}
+
+div .icons ul li {
+    display: inline;
+    line-height: 66px;
+    cursor: default;
+}
+
+div .icons ul li a {
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.icons li {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.icons ul li+li {
+    margin-left: 18px;
+}
+
+.fb {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #00acee;
+}
+
+.google {
+    color: #4285F4;
+}
+
+.copy {
+    width: 50%;
+    height: 56%;
+}
+
+.copy p {
+    font-size: 17px;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    line-height: 66px;
+    color: #000;
+    letter-spacing: 0.2px;
+}
