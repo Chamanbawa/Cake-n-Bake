@@ -129,6 +129,7 @@ nav ul li+li {
 }
 
 
+
 .section.lessdelay {
     visibility: visible;
     opacity: 1;
@@ -140,6 +141,86 @@ nav ul li+li {
     opacity: 1;
     transition-delay: 0.7s;
 }
+
+.cake, .cake2{
+    display:flex;
+}
+
+
+.cake p, .cake2 p, .cake .head, .cookies .cake2 p{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: beige;
+    text-align: left;
+}
+.cake p, .cookies p {
+    font-size: 20px;
+    color:#ff3c57;
+}
+.cake .price{
+    margin-left: 160px;
+}
+.bakery{
+    background-color: #111;
+}
+.column{
+    flex-grow:1;
+    width:calc(25% - 15px);
+
+    border-radius: 6px;
+   
+    margin-top:30px;
+}
+.bakery {
+    flex-flow:row wrap;
+     display:flex;
+     gap:20px;
+ }
+ 
+img{
+   
+    height:160px;
+    width:100%;
+}
+.one{
+    background-color:#191919;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.bakery{
+    min-height: calc(100vh - 60px - 80px );
+}
+
+.bakery{
+    display:grid;
+    align-items: center;
+    /*font-size:36px;*/
+    color: var(--app-white);
+    text-align:center;
+  /* margin-top: 50px;*/
+    width:100%;
+}
+
+.bakery h2{
+    font-size: 40px;
+    font-family: "PT Serif", serif;
+    color:#fff;
+}
+
+.button input{
+    height:50px;
+    width:50%;
+    background-color: #ff3c57;
+    border: 2px solid #ff3c57;
+    border-radius:12px;
+    font-size: 20px;
+    color: var(--app-white);
+    transition: all 0.24s ease-in-out;
+}
+
 /* --------------- */
 /* footer          */
 /* --------------- */
