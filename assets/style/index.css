@@ -201,6 +201,12 @@ img{
     padding:20px;
     box-sizing: border-box;
 }
+.four{
+    background-color: #191919;
+    padding:20px;
+    box-sizing: border-box;
+}
+
 .bakery{
     min-height: calc(100vh - 60px - 80px );
 }
