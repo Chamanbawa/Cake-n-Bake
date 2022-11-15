@@ -253,3 +253,155 @@ div .icons ul li a {
     color: #fff;
     letter-spacing: 0.2px;
 }
+
+
+@media (max-width: 1681) {
+   
+    input[type="button"] {
+        font-size: 11px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1081) {
+   
+    input[type="button"] {
+        font-size: 11px;
+    }
+    .text{
+        font-size: 16px;
+    }
+
+    .page{
+        margin-left: 0px;
+        display: inline;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .hours p{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    
+    .column {
+        width: calc(50% - 10px);
+    }
+    .title h1{
+        font-size: 25px;
+    }
+    input[type="button"] {
+        font-size: 10px;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
+    }
+    .page{
+        margin-left: 0px;
+        display: flex;
+        margin-left: 120px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .hours p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+/*  768 px and down */
+@media (max-width: 768px) {
+    
+    .column {
+        width: calc(50% - 10px);
+    }
+    .title h1{
+        font-size: 25px;
+    }
+    input[type="button"] {
+        font-size: 10px;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
+    }
+    .page{
+        margin-left: 0px;
+        display: inline;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .hours p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+}
+
+/*  480 px and down */
+@media (max-width: 480px) {
+    .column {
+        width: 100%;
+    }
+    
+    .title h1  {
+        font-size: 25px;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    
+    nav ul li a {
+        font-size: 12px;
+    }
+    .title h1{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (max-width: 650px) {
+      header nav {
+        visibility: hidden;
+      }
+    .tag{
+        visibility: visible;
+    }
+
+
+
+}
