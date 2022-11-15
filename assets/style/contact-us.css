@@ -87,14 +87,14 @@ nav ul li+li {
     
 }
 .text{
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
 }
 
 h1{
     font-size: 24px;
-    color:red;
+    color:#f9004d;
     text-align: center;
     font-weight: 600;
 }
@@ -115,8 +115,8 @@ h1{
 
  h2{
     margin-bottom: 0px;
-    font-size: 50px;
-    color: red;
+    font-size: 40px;
+    color: #f9004d;
     text-align: center;
 }
 
@@ -153,10 +153,13 @@ form textarea{
     flex-flow:row wrap;
      display:flex;
      gap:20px;
+     text-align: center;
+     margin-left: 120px;
+     padding: 20px;
 }
 
 .hours p{
-  font-size: 24px;
+  font-size: 20px;
   color: #d6d6d6;
   text-align: center;
   font-weight: 600;
