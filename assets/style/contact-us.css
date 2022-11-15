@@ -114,11 +114,11 @@ h1{
 
 
 
- h2{
+ .container h2{
     margin-bottom: 0px;
     font-size: 40px;
     color: #f9004d;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .form {
@@ -151,11 +151,11 @@ form textarea{
 
 
 .page{
-    flex-flow:row wrap;
+    /*flex-flow:row wrap;*/
      display:flex;
      gap:20px;
-     text-align: center;
-     margin-left: 120px;
+     /*text-align: center;
+     margin-left: 120px;*/
      padding: 20px;
 }
 
