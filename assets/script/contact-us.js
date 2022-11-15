@@ -1,5 +1,3 @@
-'use strict';
-
 function onEvent(event, selector, callback){
     return selector.addEventListener(event, callback);
 }
@@ -14,13 +12,12 @@ function select(selector, parent = document){
     return parent.querySelector(selector);
 }
 
-
 const form = select('form');
 const btn =select('.btn');
 
 const emailRegex = /^(?=^.{8,}$)[-_A-Za-z0-9]+([_.-][a-zA-Z0-9]+)*@[A-Za-z0-9]+([.-][a-zA-Z0-9]+)*\.[A-Za-z]{2,}$/;
 const postalRegex = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
-const nameRegex = /(^[a-zA-Z][a-zA-Z\s]{0,20}[a-zA-Z]$)/
+const textRegex = /[^A-Za-z0-9]+/;
 
 function validate(){
     let firstName = select('.first').value.trim();
@@ -29,6 +26,7 @@ function validate(){
     let email = select('.email').value.trim();
    // let postal = select('.postal').value.trim();
   let text = select('.message').value.trim();
+ // let text = select('.message').value.trim();
     
 
     function isValid(input){
@@ -48,7 +46,7 @@ function validate(){
         message+= 'First name is required\n';
         valid = false;
         count++;
-    }else if(!nameRegex.test(firstName)){
+    }else if(!textRegex.test(firstName)){
         message+='A valid first name is required\n';
         valid=false;
     }
@@ -57,7 +55,7 @@ function validate(){
         message+= 'Last name is required\n';
         valid = false;
         count++;
-    }else if(!nameRegex.test(lastName)){
+    }else if(!textRegex.test(lastName)){
         message+='A valid last name is required\n';
         valid=false;
     }
@@ -77,16 +75,17 @@ function validate(){
         valid=false;
     }
 
-if(count === 4){
+
+if(count === 5){
     alert('Fields with * are required');
 }else if (!valid){
     alert(message);
 }else {
     alert('Form submitted');
-    // form.submit();
 }
 }
 
 onEvent('click', btn, function(){
     validate();
 });
+console.log('hello');
