@@ -42,6 +42,14 @@ header {
     color: #dcdcdc;
     letter-spacing: 0.2px;
 }
+.tag{
+    font-size: 25px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    visibility: hidden;
+}
 
 nav {
     width: 60%;
@@ -145,4 +153,63 @@ div .icons ul li a {
     line-height: 66px;
     color: #fff;
     letter-spacing: 0.2px;
+}
+/* -------------------------- */
+/* Media queries              */
+/* -------------------------- */
+
+
+/*  768 px and down */
+@media (max-width: 768px) {
+    
+   
+    
+    .title h1{
+        font-size: 25px;
+    }
+   
+    
+    
+    nav ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+/*  480 px and down */
+@media (max-width: 480px) {
+   
+    
+    .title h1  {
+        font-size: 25px;
+    }
+    
+    nav ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    
+    nav ul li a {
+        font-size: 12px;
+    }
+    .title h1{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (max-width: 650px) {
+      header nav {
+        visibility: hidden;
+      }
+    .tag{
+        visibility: visible;
+    }
+
+
+
 }
