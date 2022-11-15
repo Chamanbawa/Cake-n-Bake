@@ -368,7 +368,10 @@ div .icons ul li a {
         font-size: 14px;
     }
 
-   
+   .page{
+    display: inline;
+
+   }
 
     .text {
         font-size: 16px;
