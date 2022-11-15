@@ -17,6 +17,7 @@ body {
 .container {
     width: min(100% - 30px, 1280px);
     margin-inline: auto;
+
 }
 h1 span{
     color:#f9004d;
@@ -79,13 +80,13 @@ nav ul li+li {
 
 /*---------Section-----*/
 
-.section{
+/*.container{
     /*background-image: url(../img/pexels-marta-dzedyshko-2067436.jpg);*/
-    background-color: #111;
+   /* background-color: #fff;
     background-size: cover;
     background-position: center;
     
-}
+}*/
 .text{
     font-size: 20px;
     color: #fff;
