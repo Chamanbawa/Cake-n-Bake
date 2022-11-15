@@ -96,7 +96,9 @@ nav ul li+li {
     display: flex;
     gap: 20px;
     padding: 20px;
+    margin-left: 200px;
 }
+
 
 .top {
     text-align: center;
