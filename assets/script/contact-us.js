@@ -55,6 +55,9 @@ function validate(){
         message+= 'Last name is required\n';
         valid = false;
         count++;
+    }else if(!textRegex.test(lastName)){
+        message+='A valid last name is required\n';
+        valid=false;
     }
 
     if(text.length ===0){
@@ -62,15 +65,6 @@ function validate(){
         valid = false;
         count++;
     }
-
-    /*if(age.length===0){
-        message+='Age is required\n';
-        valid=false;
-        count++;
-    }else if(!isValid(Number(age))){
-        message+='Age is required\n';
-        valid=false;
-    }*/
 
     if(email.length===0){
         message+='Email is required\n';
@@ -82,23 +76,12 @@ function validate(){
     }
 
 
-
-/*if(postal.length===0){
-    message+='Postal is required\n';
-    valid=false;
-    count++;
-}else if(!postalRegex.test(postal)){
-    message+='A valid postal is required';
-    valid=false;
-}*/
-
 if(count === 5){
     alert('Fields with * are required');
 }else if (!valid){
     alert(message);
 }else {
     alert('Form submitted');
-    // form.submit();
 }
 }
 
