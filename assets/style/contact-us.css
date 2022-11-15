@@ -77,7 +77,31 @@ nav ul li+li {
     margin-left: 18px;
 }
 
+/*---------Section-----*/
 
+body {
+    /*background-image: url(../img/pexels-marta-dzedyshko-2067436.jpg);*/
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.text{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+h1{
+    font-size: 24px;
+    color:red;
+    text-align: center;
+    font-weight: 600;
+}
 .flexbox {
     display: flex;
 }
