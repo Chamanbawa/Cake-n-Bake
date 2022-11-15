@@ -17,7 +17,7 @@ function  select(selector, parent = document){
 
 
 const modal = select('.section');
-const delay = select('.delay');
+const morebtn = select('.more-btn');
 const text = select('.text');
  
 let n = 0;
@@ -27,7 +27,7 @@ function lets()  {
 modal.classList.add('lessdelay');
 }
 function lets2(){
-delay.classList.add('is-visible');
+    morebtn.classList.add('is-visible');
 }
 
 window.addEventListener('load', () =>{
@@ -36,13 +36,13 @@ lets();
 lets2();
 });
 
-onEvent('click', delay, function () {
- delay.innerText = (n === 2) ? 'Again?' : 'More'; 
+onEvent('click', morebtn, function () {
+    morebtn.innerText = (n === 2) ? 'Again?' : 'More'; 
  if ( n === 3) {
   text.innerHTML = content[ n = 0 ];
  return;
 }
 
-text.innerHTML = content[ ++n ];
+text.innerHTML = content[ ++n ];
 
-    });
+});
