@@ -13,4 +13,4 @@ At ```Cake&Bake``` we produce and sell flour-based food like cakes, cookies and 
 Enjoy!
 
 
-Click [here]( https://chamanbawa.github.io/cake-n-bake/) to experience true entertainment.
+Click [here]( https://chamanbawa.github.io/cake-n-bake/) to order food.
